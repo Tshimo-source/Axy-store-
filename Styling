@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music | A.X.Y MARKET</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2>A.X.Y MARKET - Music</h2>
+    <a href="merch.html">Merch</a>
+  </header>
+
+  <div class="music-container">
+    <!-- 7 Vertical Rows for Music & Price -->
+    <div class="music-row">
+      <input type="file" accept="audio/*">
+      <input type="text" placeholder="Enter Price">
+    </div>
+    <div class="music-row"><!-- Repeat more rows as needed --></div>
+    <div class="music-row"></div>
+    <div class="music-row"></div>
+    <div class="music-row"></div>
+    <div class="music-row"></div>
+    <div class="music-row"></div>
+  </div>
+
+  <!-- Artwork Section -->
+  <div class="artwork-section">
+    <h3>Artwork Showcase</h3>
+    <input type="file" accept="image/*">
+  </div>
+
+  <footer>
+    <div class="socials">
+      <h4>Socials & Payment Info</h4>
+      <p>Add your socials and payment methods here.</p>
+    </div>
+  </footer>
+</body>
+</html>
